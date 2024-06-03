@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matias Rojas">
+    <title>Piedra, Papel o Tijeras</title>
+    <link rel="icon" href="PPT.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Piedra, Papel o Tijeras</h1>
+    </header>
+    <main>
+        <div id="options">
+            <span id="rock" class="options">👊</span>
+            <span id="paper" class="options">✋</span>
+            <span id="scissors" class="options">✌️</span>
+        </div>
+        <div id="compare">
+            <span id="userSelect" class="optionSelected">❔</span>
+            <strong>VS</strong>
+            <span id="iaSelect" class="optionSelected">❔</span>
+        </div>
+        <div id="points">
+            <div class="point-column">
+                <strong>TU</strong> 
+                <span id="userPoints">0</span>
+            </div>
+            <div class="point-column">
+                <strong>IA</strong>
+                <span id="iaPoints">0</span>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
